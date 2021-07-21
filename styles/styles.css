@@ -1,6 +1,38 @@
 /* To save sass to css run       sass styles.sass:styles.css      in the folder */
-h1 {
-  color: blue;
+.headNfoot {
+  background-color: #181818;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  color: white;
+}
+.headNfoot img {
+  width: 950px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headNfoot h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, sans-serif;
+  color: white;
+}
+
+.footer-table table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #282828;
+  margin: 0px;
+  color: white;
+}
+
+.link-image img {
+  width: 128px;
+  height: 64px;
 }
 
 /*# sourceMappingURL=styles.css.map */
