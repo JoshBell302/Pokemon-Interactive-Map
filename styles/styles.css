@@ -1,4 +1,10 @@
 /* To save sass to css run       sass styles.sass:styles.css      in the folder */
+body {
+  background-color: #282828;
+  margin: 0px;
+  color: white;
+}
+
 .headNfoot {
   background-color: #181818;
   width: 100%;
@@ -7,7 +13,7 @@
   color: white;
 }
 .headNfoot img {
-  width: 950px;
+  width: 800px;
   height: 150px;
   display: block;
   margin-left: auto;
@@ -24,14 +30,8 @@
   margin-right: auto;
 }
 
-body {
-  background-color: #282828;
-  margin: 0px;
-  color: white;
-}
-
-.link-image img {
-  width: 128px;
+.footer-link-image img {
+  width: 150px;
   height: 64px;
 }
 
