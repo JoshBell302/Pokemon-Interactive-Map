@@ -45,6 +45,12 @@ app.get('/rubyandsapphire', (req, res) => {
   res.render('rubyandsapphire/main', {});
 });
 
+// ---------- Fire Red and Leaf Green -----------
+app.get('/fireredandleafgreen', (req, res) => {
+  console.log("The website has requested " + req.url);
+  res.render('fireredandleafgreen/main', {});
+});
+
 // ------------------- Emerald ------------------
 app.get('/emerald', (req, res) => {
   console.log("The website has requested " + req.url);
