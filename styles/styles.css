@@ -35,4 +35,36 @@ body {
   height: 64px;
 }
 
+.game-homepage-title {
+  text-align: center;
+}
+
+.home-description h4 {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content-menu {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.content-content {
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
