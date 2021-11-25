@@ -5,6 +5,11 @@ body {
   color: white;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .headNfoot {
   background-color: #181818;
   width: 100%;
@@ -59,12 +64,34 @@ body {
   float: left;
   width: 25%;
   padding: 10px;
+  background-color: #404040;
+  border-style: solid;
+  border-color: #282828;
+}
+
+.content-menu-links:link {
+  color: #add8e6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.content-menu-links:hover {
+  color: #8AC7DB;
+  background-color: transparent;
+  text-decoration: none;
+}
+.content-menu-links:visited {
+  color: #67B7D1;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .content-content {
   float: left;
-  width: 70%;
+  width: 65%;
   padding: 10px;
+  background-color: #404040;
+  border-style: solid;
+  border-color: #282828;
 }
 
 /*# sourceMappingURL=styles.css.map */

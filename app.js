@@ -21,6 +21,11 @@ app.get('/redandblue', (req, res) => {
   res.render('redandblue/main', {});
 });
 
+app.get('/redandblue/pallettown', (req,res) => {
+  console.log("The website has requested " + req.url);
+  res.render('redandblue/pallettown', {});
+});
+
 // ------------------- Yellow -------------------
 app.get('/yellow', (req, res) => {
   console.log("The website has requested " + req.url);

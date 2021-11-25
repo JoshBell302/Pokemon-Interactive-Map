@@ -2,6 +2,10 @@
 $dark-color: #181818
 $dark-grey-color: #282828
 $grey-color: #404040
+$light-grey-color: #646464
+$link-color: #add8e6
+$hover-color: #8AC7DB
+$visited-color: #67B7D1
 $text-type: "Times New Roman", Times, sans-serif
 
 // Inside the header and footer is the body
@@ -9,6 +13,10 @@ body
     background-color: $dark-grey-color
     margin: 0px
     color: white
+
+img
+    width: 100%
+    height: auto
 
 // Class for the header and footer of each page
 .headNfoot
@@ -64,11 +72,31 @@ body
     float: left
     width: 25%
     padding: 10px
+    background-color: $grey-color
+    border-style: solid
+    border-color: $dark-grey-color
+
+.content-menu-links
+    &:link
+        color: $link-color
+        background-color: transparent
+        text-decoration: none
+    &:hover
+        color: $hover-color
+        background-color: transparent
+        text-decoration: none
+    &:visited
+        color: $visited-color
+        background-color: transparent
+        text-decoration: none
 
 .content-content
     float: left
-    width: 70%
+    width: 65%
     padding: 10px
+    background-color: $grey-color
+    border-style: solid
+    border-color: $dark-grey-color
 
 // This is the text at the top of the page
 //.page-decription
